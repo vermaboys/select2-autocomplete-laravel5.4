@@ -18,5 +18,6 @@ Route::get('/', function () {
 Auth::routes();
 Route::get('/admin', 'AdminController@index');
 Route::get('/admin/select2', 'AdminController@editProfile');
+Route::get('/admin/get-email','AdminController@getUserEmail');
 
 
