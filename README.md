@@ -16,7 +16,7 @@ Step 2:- php artisan db:seed
 -[include select2.min.js file]
 
 ##blade file
-##<select class="form-control multiple user-email"></select>
+##write multiple user-email in select tag that is class
 
 ##jquery
 -[<script type="text/javascript">
