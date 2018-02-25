@@ -39,21 +39,16 @@ $(document).ready(function() {
         }
     });
 });
-</script>]
+</script>
 
 ##In Controller
--[function getUserEmail(Request $request)
+
+##function getUserEmail(Request $request)
 {
 	$data = [];
-
-    if($request->has('q')){
-
-        $search = $request->q;
-
-        $data = Select2::select("id","email")
-						        ->where('name','LIKE',"%$search%")
-						        ->get();
-
-    }
+	if($request->has('q')){
+		$search = $request->q;
+		$data = Select2::select("id","email")->where('name','LIKE',"%$search%")->get();
+	}
     return response()->json($data);
-}]
+}
