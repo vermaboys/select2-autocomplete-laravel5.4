@@ -4,6 +4,8 @@
 Step 1:- git clone in your terminal-[https://github.com/vermaboys/select2-autocomplete-laravel5.4.git]
 Step 2:- php artisan db:seed
 
+##You tube=>https://youtu.be/Vsj1rukgCMk
+
 ##Route
 -[You can access select2 using http://localhost/select2-laravel/admin/select2]
 
