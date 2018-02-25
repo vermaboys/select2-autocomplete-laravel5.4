@@ -24,7 +24,7 @@ background-color: #3c8dbc;}
               <div class="form-group">
               		<label class="col-sm-3 control-label">Email</label>
       		         <div class="col-sm-9">
-                		<select class="form-control user-email"></select>
+                		<select class="form-control user-email multiple"></select>
               		</div>
               </div>
             </div>
