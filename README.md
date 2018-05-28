@@ -1,8 +1,10 @@
 # select2-autocomplete-laravel5.4
 
-#For Clone
+# For Clone
 Step 1:- git clone in your terminal-[https://github.com/vermaboys/select2-autocomplete-laravel5.4.git]
 Step 2:- php artisan db:seed
+
+# you can also write code in own project using following instructions
 
 ## Route
 ```
