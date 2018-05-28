@@ -22,6 +22,10 @@ Css and Js File
 Copy css and js folder in public folder
 ```
 
+```
+Copy Select2 model in app folder
+```
+
 blade file and layout file
 ```
 copy full admin folder in resources\views
