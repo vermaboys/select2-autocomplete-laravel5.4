@@ -2,9 +2,9 @@
 
 ## For Clone
 ```
-Step 1:- Run command on git clone https://github.com/vermaboys/select2-autocomplete-laravel5.4.git
-Step 2:- Run command on php artisan db:seed
-Step 3:- Run command on composer install
+Step 1:- Run command on terminal git clone https://github.com/vermaboys/select2-autocomplete-laravel5.4.git
+Step 2:- Run command on terminal  php artisan db:seed
+Step 3:- Run command on terminal composer install
 Step 4:- You can access select2 using http://localhost/select2-autocomplete-laravel5.4/admin/select2
 ```
 
