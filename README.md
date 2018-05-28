@@ -4,22 +4,35 @@
 Step 1:- git clone in your terminal-[https://github.com/vermaboys/select2-autocomplete-laravel5.4.git]
 Step 2:- php artisan db:seed
 
-##You tube=>https://youtu.be/Vsj1rukgCMk
+## Route
+```
+Route::get('/admin/select2', 'AdminController@editProfile');
+Route::get('/admin/get-email','AdminController@getUserEmail');
+```
 
-##Route
--[You can access select2 using http://localhost/select2-laravel/admin/select2]
 
-##Css File
--[include select2.min.css file]
+## Css and Js File
+```
+jquery.min.js
+jquery-ui.min.js
+select2.min.css
+select2.min.js
+```
 
-##Js File
--[include select2.min.js file]
+## blade file and layout file
+```
+copy full admin folder in resources\views
+copy admin.blade file in resources\views\layouts
+```
 
-##blade file
 ##write multiple user-email in select tag that is class
+```
+<select class="form-control user-email multiple"></select>
+```
 
 ##jquery
--[<script type="text/javascript">
+```
+<script type="text/javascript">
 $(document).ready(function() {
   	$('.user-email').select2({
         placeholder: 'Select Email Address',
@@ -42,15 +55,13 @@ $(document).ready(function() {
     });
 });
 </script>
+```
 
-##In Controller
+## In Controller
+```
+Copy AdminController in \app\Http\Controllers
+```
 
-##function getUserEmail(Request $request)
-{
-	$data = [];
-	if($request->has('q')){
-		$search = $request->q;
-		$data = Select2::select("id","email")->where('name','LIKE',"%$search%")->get();
-	}
-    return response()->json($data);
-}
+```
+You can access select2 using http://localhost/select2-laravel/admin/select2
+```
